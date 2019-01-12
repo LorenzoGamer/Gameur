@@ -17,5 +17,4 @@ client.on('message', message => {
  
     if(message.content === "Bonjour"){
         message.reply("S"Salut, ça va ?");
-        console.log(`Le bot dit bonjour a ${message.author.tag}`);
-    }
+       console.log(`Le bot dit bonjour a ${message.author.tag}`);}
