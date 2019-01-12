@@ -12,9 +12,3 @@ client.on('message', msg => {
 });
 
 client.login('NTI2ODAwNDIzOTE5NjgxNTU2.DxsyAQ.suNKx-ct6dFpD2onH0fCHg45-e0');
-
-client.on('message', message => {
- 
-    if(message.content === "Bonjour"){
-        message.reply("S"Salut, ça va ?");
-       console.log(`Le bot dit bonjour a ${message.author.tag}`);}
